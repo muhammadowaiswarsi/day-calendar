@@ -1,0 +1,162 @@
+// you must include each plugins' css
+// paths prefixed with ~ signify node_modules
+@import "~@fullcalendar/core/main.css";
+@import "~@fullcalendar/timegrid/main.css";
+
+.demo-app {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+  
+}
+
+.demo-app-top {
+  margin: 0 0 3em;
+}
+
+.fc-event {
+  border-left: 8px solid #49d604 !important;
+  background: #fff;
+  color: #000;
+  display: block;
+  font-size: 0.85em;
+  line-height: 1.4;
+  width: 95%;
+  border-radius: none !important; 
+  border-right: 0 !important;
+  border-bottom: 0 !important;
+  border-top: 0 !important;
+}
+.fc-event-container{
+  a{
+    border-radius: 0 !important; 
+    border-bottom: none !important;
+  }
+}
+
+.fc-event, .fc-event:hover {
+  color: black;
+  padding: 10px;
+}
+
+.fc-time {
+  color: #e6e6e6;
+  span {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+  }
+}
+
+.demo-app-calendar {
+  margin: 0 auto;
+}
+
+.fc-today {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.fc-toolbar.fc-header-toolbar {
+  margin-bottom: 0px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.fc-day-header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fc-day-grid {
+  background: #e6e6e6;
+  .fc-week {
+    border-left: 8px solid #49d604 !important;
+  }
+  .fc-axis {
+    background: #fff;
+    width: 19% !important;
+  }
+  .fc-time {
+    span {
+      font-weight: bold;
+      color: #000 !important;
+    }
+  }
+}
+
+.fc_first{
+  border-left: 0 !important;
+}
+
+.fc-slats {
+  td {
+    height: 40px !important;
+  }
+}
+
+.fc-week {
+  margin-left: 205px;
+  border-left: 2px solid green;
+}
+
+.fc-row {
+  .fc-sun {
+    background: #fff !important;
+  }
+}
+
+.fc-toolbar h2 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.fc{
+margin: 10%;
+}
+
+.fc-widget-content{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.fc-axis {
+  width: 19% !important;
+}
+
+.fc-title{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.fc-content{
+  .fc-time{
+    span{
+      color: grey;
+      font-weight: normal;
+    }
+  }
+}
+
+.fc-unthemed{
+   td{
+     .fc-today{
+      background-color: white;
+     }
+  }
+}
+
+.fc-row{
+  border-right-width: 0 !important;
+  margin-right: 0 !important;
+}
+
+.fc-content-skeleton{
+  padding: 0 !important;
+}
+
+.fc-widget-content{
+  text-transform: uppercase;
+  color: grey;
+}
